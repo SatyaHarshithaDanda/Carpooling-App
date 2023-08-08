@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Carpooling App</title>
+</head>
+<body>
+    <h1>Welcome to Carpooling App!</h1>
+    
+    <form action="/cgi-bin/submit_request.cgi" method="post">
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username" required><br>
+        
+        <label for="from">Starting Location:</label>
+        <input type="text" id="from" name="from" required><br>
+        
+        <label for="to">Destination:</label>
+        <input type="text" id="to" name="to" required><br>
+        
+        <input type="submit" value="Submit Request">
+    </form>
+</body>
+</html>
